@@ -212,6 +212,8 @@ PRODUCT_PACKAGES += \
 SPAMMY_LOG_TAGS := \
     cnss-daemon \
     sensors \
+    vendor.qti.bluetooth@1.0-ibs_handler \
+    vendor.qti.bluetooth@1.0-wake_lock \
     vendor.qti.hardware.display.composer-service \
     wificond \
     WifiHAL
