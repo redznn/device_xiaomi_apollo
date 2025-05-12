@@ -68,9 +68,6 @@ TARGET_KERNEL_CONFIG := \
      vendor/apollo_defconfig \
      vendor/debugfs.config
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # Media
 TARGET_USES_ION := true
 
