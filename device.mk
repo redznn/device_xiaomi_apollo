@@ -271,6 +271,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor # Needed by CNE app
 
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_apollo)
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom \
