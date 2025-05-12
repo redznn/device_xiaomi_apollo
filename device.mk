@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
 # Logging
 SPAMMY_LOG_TAGS := \
     cnss-daemon \
+    HWUI \
     sensors \
     vendor.qti.bluetooth@1.0-ibs_handler \
     vendor.qti.bluetooth@1.0-wake_lock \
