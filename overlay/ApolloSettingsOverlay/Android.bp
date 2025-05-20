@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "ApolloSettingsOverlay",
+    product_specific: true,
+}
